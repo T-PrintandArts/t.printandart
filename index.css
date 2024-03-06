@@ -1,0 +1,162 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+img{
+    
+    height: 70px;
+    display: block;
+}
+body{
+    
+    background-color: rgb(177, 186, 194);
+    background-image: url("90fecaaae34972874419d81bf05e5029.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+    
+}
+.body{
+   background-color: #000000;
+   color: #ffffff;
+   display: block;
+   height: 150px;
+   font-size: 55px;
+   
+}
+@media screen and (min-width:700px){
+    .nylon{
+        font-size: 40px;
+        text-align: center;
+
+        
+     }
+    
+}
+.print{
+    padding-left: 5px;
+    padding-bottom: 0px;
+    display: grid;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    @media screen and (min-width:300px){
+        .print{
+            font-size: 30px;
+              }
+        
+}
+.nylon{
+    background-color: #ffffff;
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+@media screen and (min-width: 300px) {
+    .nylon{
+       font-size: 15px; 
+    }
+    
+}
+.dog{
+    display: block;
+    background-color: #0f73ff;
+    color: #ffffff;
+    font-size: 70px;
+}
+ 
+
+
+.offer{
+    background-color: #000000;
+    margin: 10px;
+    font-size: 20px;
+    width: 60%;
+    color: #ffffff;
+}
+@media screen and (min-width:700px){
+    .offer{
+        width: 40%;
+        font-size: 30px;
+     }
+    
+}
+.nuel {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+   }
+   @media screen and (min-width:300px){
+    .nuel{
+        margin: 0px;
+        padding: 10px;
+
+        
+     }
+    
+}
+.nuel ul{
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(2, 200px);
+}
+@media screen and (min-width:100px){
+    .nuel ul{
+        grid-template-columns: repeat(2, 150px);
+        margin: 15px;
+
+    }
+}
+@media screen and (min-width:700px){
+    .nuel ul{
+        grid-template-columns: repeat(8, 200px);
+     }
+    
+}
+.nuel ul li{
+    margin: 1px;
+    padding: 10px;
+}
+.company{
+   font-size:30px; 
+   margin: 20px;
+   text-transform: capitalize;
+   text-align: center;
+   background-color: #000000;
+   color: #ffffff;
+}
+.enroll{
+ font-size: 40px;
+ text-align: center; 
+
+}
+.enroll a{
+    text-decoration: none;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f73ff;
+}
+.click{
+    text-align: center;
+   
+}
+button{
+    background-color: #0f73ff;
+    color: #000000;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
